@@ -50,8 +50,8 @@ function Navbar({ scrollToRole }) {
     return (
         <div className='navbar_main_div'>
             <div className='navbar_sub_main_div d-flex align-items-center'>
-                <img className='imayllogo_navbar_toggle' src={toggle} onClick={handleclickedtoggle} />
-                <img className='imayllogo_navbar' style={{cursor:'pointer'}} src={imayllogo} onClick={handleclickedImayl} />
+                <img className='imayllogo_navbar_toggle'alt="imayllogo_navbar" src={toggle} onClick={handleclickedtoggle} />
+                <img className='imayllogo_navbar' alt="imayllogo_navbar" style={{cursor:'pointer'}} src={imayllogo} onClick={handleclickedImayl} />
                 <div class='imayl_nav_bar_buttons_holder'>
                     <div className='d-flex'>
                         <button className='contact_us_main_div_button' onClick={handleclickContactus}>

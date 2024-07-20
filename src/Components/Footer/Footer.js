@@ -64,7 +64,7 @@ function Footer() {
         <>
             <div className='footer_main_div d-flex flex-column align-items-center justify-content-center' >
                 <div className='footer_img_text_holder_sub  d-flex flex-column justify-content-center align-items-center'>
-                    <img className='calllogo' style={{ cursor: 'pointer' }} onClick={handlcallclicked} src={calllogo} />
+                    <img className='calllogo' style={{ cursor: 'pointer' }} alt="calllogo" onClick={handlcallclicked} src={calllogo} />
                     <span className='footer_span_tag'>888-464-2360</span>
                     <span className='footer_span_tag'>info@imayl.com</span>
                     <span className='footer_span_tag'>Speak with a package management
@@ -74,10 +74,10 @@ function Footer() {
                 <div className='icons_parent_div_imayl d-flex align-items-center'>
                     <span className='footer_follow_txt'>Follow</span>
                     <span className='footer_imayl_txt'>iMayl</span>
-                    <img className='icons_img_tw' src={tw} onClick={handleclicktw} />
-                    <img className='icons_img' src={fb} onClick={handleclickfb} />
-                    <img className='icons_img_tw' src={linkedin} onClick={handleclicklinkedin} />
-                    <img className='icons_img' src={yt} onClick={handleclickyt} />
+                    <img className='icons_img_tw'  alt="icons_img_tw" src={tw} onClick={handleclicktw} />
+                    <img className='icons_img' alt="icons_img"  src={fb} onClick={handleclickfb} />
+                    <img className='icons_img_tw'  alt="icons_img_tw" src={linkedin} onClick={handleclicklinkedin} />
+                    <img className='icons_img' alt="icons_img" src={yt} onClick={handleclickyt} />
                 </div>
             </div>
             <div className='sub_footer_main_div d-flex align-items-center justify-content-md-between flex-column flex-md-row'>

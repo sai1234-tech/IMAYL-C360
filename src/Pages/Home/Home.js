@@ -58,7 +58,7 @@ function Home(prop) {
       </div>
       <div className='enterprices_main_room_div' style={{ backgroundImage: `url(${imayledge})` }}>
         <div>
-          <img src={handimage} className='imayledge_hand_img' />
+          <img src={handimage}  alt="handimage" className='imayledge_hand_img' />
         </div>
         <div className='enterprices_mainroom_text_imayl_div d-flex flex-column'>
           <span>
@@ -82,8 +82,8 @@ function Home(prop) {
               <span> for internal mail packages once a carrier has delivered them to your facility like mailroom / warehouse / stockroom.</span>
             </div>
             <div className='experience_img_holder_div'>
-              <img className='experience_img' src={experience} />
-              <img className='experience_img_resp' src={expresp} />
+              <img className='experience_img' alt="experience"  src={experience} />
+              <img className='experience_img_resp' alt="expresp"  src={expresp} />
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ function Home(prop) {
               <span className='package_into_the_web The_chain_of'>also capture a signature.</span>
             </div>
             <div className='deliver_package_main_holder_div'>
-              <img className='logpackage_main_holder_div_img' src={Deliever} />
+              <img className='logpackage_main_holder_div_img' alt="Deliever" src={Deliever} />
             </div>
           </div>
         </div>
@@ -172,7 +172,7 @@ function Home(prop) {
               </div>
             </div>
             <div className='howit_main_holder_div'>
-              <img className='logpackage_main_holder_div_img' src={howit} />
+              <img className='logpackage_main_holder_div_img' alt="howit" src={howit} />
               {/* <img className='ipad_center_image' src={ipadcenter}/> */}
             </div>
           </div>
@@ -186,7 +186,7 @@ function Home(prop) {
           </div>
           <div className='text_image_holder_imayl d-flex flex-column flex-md-row'>
             <div className='whythere_main_holder_div'>
-              <img className='logpackage_main_holder_div_img' src={getimayl} />
+              <img className='logpackage_main_holder_div_img'  alt="getimayl" src={getimayl} />
             </div>
             <div className='d-flex flex-column imayl_logopackage_sub_text_div'>
               <span className='why_there_the_picture'>iMayl fully adapts to your process and doesn't need technical  </span>
@@ -210,7 +210,7 @@ function Home(prop) {
           </div>
           <div className='d-flex flex-column flex-md-row iphone_android_whole_parent'>
             <div className='d-flex flex-column align-items-center mobile_imayl_divs'>
-              <img className='android_imayl' src={android} />
+              <img className='android_imayl' alt="android" src={android} />
               <span className='mobile_type_text'>Android</span>
               <span className='mobile_type_sub_text'>Get the iMayl app for
                 Android from the Play
@@ -218,7 +218,7 @@ function Home(prop) {
               <button className='get_the_app' style={{ cursor: 'pointer' }} onClick={handleclickgetandroid}>Get the app</button>
             </div>
             <div className='d-flex flex-column align-items-center mobile_imayl_divs'>
-              <img className='android_imayl' src={iphone} />
+              <img className='android_imayl' alt="iphone" src={iphone} />
               <span className='mobile_type_text'>iPhone</span>
               <span className='mobile_type_sub_text'>Get the iMayl app for
                 iPhone from the App Store.</span>
